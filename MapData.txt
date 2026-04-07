@@ -1,0 +1,25 @@
+# Nodes (ID, Name, X, Y)
+NODE,1,Delhi,0,0
+NODE,2,Noida,2,3
+NODE,3,Gurgaon,4,1
+NODE,4,Faridabad,6,5
+NODE,5,Ghaziabad,3,6
+NODE,6,Airport,8,2
+NODE,7,MetroHub,5,8
+NODE,8,ConnaughtPlace,1,4
+NODE,9,Saket,7,7
+NODE,10,Rohini,0,7
+
+# Edges (Source, Destination, Distance)
+EDGE,1,2,5
+EDGE,1,3,3
+EDGE,2,5,4
+EDGE,3,4,6
+EDGE,4,9,2
+EDGE,5,7,3
+EDGE,7,10,4
+EDGE,10,8,6
+EDGE,8,1,2
+EDGE,6,3,7
+EDGE,6,4,4
+EDGE,9,7,5
